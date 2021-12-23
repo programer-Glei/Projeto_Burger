@@ -57,4 +57,23 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
             width: 15rem;
         }
     }
+
+    .search-form{
+        height: 7rem;
+        padding: 0 2rem;
+        border-top: $border;
+        display: flex;
+        align-items: center;
+        background: $black;
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+
+        input{
+            width: 100%;
+            background: none;
+            text-transform: none;
+            font-size: 1.6rem;
+            color: $white;
+        }
+    }
 }
