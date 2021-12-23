@@ -87,4 +87,8 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
             cursor: pointer;
         }
     }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
 }

@@ -98,4 +98,9 @@
   color: #fff;
   cursor: pointer;
 }
+
+.header .fa-times {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 /*# sourceMappingURL=header.css.map */
