@@ -67,6 +67,11 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
         background: $black;
         position: absolute;
         top: 99%; left: 0; right: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
 
         input{
             width: 100%;
@@ -74,6 +79,12 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
             text-transform: none;
             font-size: 1.6rem;
             color: $white;
+        }
+
+        label{
+            font-size: 2.5rem;
+            color: $white;
+            cursor: pointer;
         }
     }
 }
