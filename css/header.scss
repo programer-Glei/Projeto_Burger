@@ -1,0 +1,22 @@
+$yellow:#eacf4f;
+$white:#fff;
+$black:#000;
+$light-color:#aaa;
+$border: 0.2rem solid rgba(255,255,255,0.3);
+
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: $black;
+    padding: 3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .icons{
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+}
