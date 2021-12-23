@@ -21,5 +21,26 @@
 .header .icons {
   font-size: 2.5rem;
   cursor: pointer;
+  color: #fff;
+}
+
+.header .icons:hover {
+  color: #eacf4f;
+}
+
+.header #menu-btn {
+  display: none;
+}
+
+.header .navbar a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+.header .navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #eacf4f;
 }
 /*# sourceMappingURL=header.css.map */
