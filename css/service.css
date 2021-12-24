@@ -1,0 +1,36 @@
+.service {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.service .box {
+  text-align: center;
+  padding: 2rem;
+}
+
+.service .box i {
+  height: 7rem;
+  width: 7rem;
+  line-height: 7rem;
+  font-size: 2.5rem;
+  color: #000;
+  background: #eacf4f;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.service .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.service .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+}
+/*# sourceMappingURL=service.css.map */
