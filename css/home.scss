@@ -1,0 +1,41 @@
+$yellow:#eacf4f;
+$white:#fff;
+$black:#000;
+$light-color:#aaa;
+
+@mixin title-text($titleSize) {
+    font-size: $titleSize;
+    color: $white;
+}
+
+@mixin grap-text($grapSize) {
+    font-size: $grapSize;
+    line-height: 2;
+    color: $light-color;
+}
+
+.home{
+    margin-top: 7rem;
+    background: url(../img/home-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content{
+        max-width: 70rem;
+        text-align: center;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+
+        h3{
+            @include title-text(4rem);
+        }
+
+        p{
+            @include grap-text(1.7rem);
+            padding: 2rem 0;
+        }
+    }
+}
