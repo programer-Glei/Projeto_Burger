@@ -42,4 +42,20 @@ body {
 section {
   padding: 3rem 9%;
 }
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  background: no-repeat;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
 /*# sourceMappingURL=estilo.css.map */
