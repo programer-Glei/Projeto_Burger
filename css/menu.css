@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.menu .box-container .box:hover img {
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+}
+
 .menu .box-container .box img {
   height: 25rem;
 }

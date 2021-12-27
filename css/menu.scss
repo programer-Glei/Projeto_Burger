@@ -29,6 +29,10 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
         .box{
             text-align: center;
 
+            &:hover img{
+                transform: translateY(1rem);
+            }
+
             img{
                 height: 25rem;
             }
