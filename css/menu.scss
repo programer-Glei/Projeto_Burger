@@ -32,6 +32,27 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
             img{
                 height: 25rem;
             }
+
+            .content{
+                padding: 1rem 0;
+
+                .stars{
+                    margin-bottom: 2rem;
+
+                    i{
+                        font-size: 1.7rem;
+                        color: $yellow;
+                    }
+                }
+
+                h3{
+                    @include title-text(2rem);
+                }
+
+                .price{
+                    @include grap-text(2rem);
+                }
+            }
         }
     }
 }

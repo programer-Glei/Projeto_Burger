@@ -13,4 +13,28 @@
 .menu .box-container .box img {
   height: 25rem;
 }
+
+.menu .box-container .box .content {
+  padding: 1rem 0;
+}
+
+.menu .box-container .box .content .stars {
+  margin-bottom: 2rem;
+}
+
+.menu .box-container .box .content .stars i {
+  font-size: 1.7rem;
+  color: #eacf4f;
+}
+
+.menu .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.menu .box-container .box .content .price {
+  font-size: 2rem;
+  line-height: 2;
+  color: #aaa;
+}
 /*# sourceMappingURL=menu.css.map */
