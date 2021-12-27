@@ -1,0 +1,62 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 3rem;
+}
+
+.about .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+.about .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.about .content .title {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.about .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 2rem 0;
+}
+
+.about .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about .content .icons h3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 16rem;
+          flex: 1 1 16rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.about .content .icons h3 i {
+  padding-right: 0.5rem;
+  color: #eacf4f;
+}
+/*# sourceMappingURL=about.css.map */

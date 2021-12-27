@@ -1,0 +1,66 @@
+$yellow:#eacf4f;
+$white:#fff;
+$black:#000;
+$light-color:#aaa;
+$border: 0.2rem solid rgba(255,255,255,0.3);
+
+@mixin title-text($titleSize) {
+    font-size: $titleSize;
+    color: $white;
+}
+
+@mixin grap-text($grapSize) {
+    font-size: $grapSize;
+    line-height: 2;
+    color: $light-color;
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax($val,1fr));
+    gap: 2rem;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3rem;
+
+    .image{
+        flex: 1 1 40rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .content{
+        flex: 1 1 40rem;
+
+        .title{
+            @include title-text(2.5rem);
+        }
+
+        p{
+            @include grap-text(1.5rem);
+            padding: 2rem 0;
+        }
+
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            h3{
+                flex: 1 1 16rem;
+                @include title-text(1.7rem);
+
+                i{
+                    padding-right: 0.5rem;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
