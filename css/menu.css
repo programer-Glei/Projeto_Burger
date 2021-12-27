@@ -1,0 +1,16 @@
+.menu .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.menu .box-container .box {
+  text-align: center;
+}
+
+.menu .box-container .box img {
+  height: 25rem;
+}
+/*# sourceMappingURL=menu.css.map */
