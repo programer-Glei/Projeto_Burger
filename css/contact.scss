@@ -1,0 +1,49 @@
+$yellow:#eacf4f;
+$white:#fff;
+$black:#000;
+$light-color:#aaa;
+$border: 0.2rem solid rgba(255,255,255,0.3);
+
+@mixin title-text($titleSize) {
+    font-size: $titleSize;
+    color: $white;
+}
+
+@mixin grap-text($grapSize) {
+    font-size: $grapSize;
+    line-height: 2;
+    color: $light-color;
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax($val,1fr));
+    gap: 2rem;
+}
+
+.contact{
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        .map{
+            flex: 1 1 40rem;
+        }
+
+        .form{
+            flex: 1 1 40rem;
+
+            .icons-container{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+
+                .icons{
+                    flex: 1 1 17rem;
+                }
+            }
+        }
+    }
+}
