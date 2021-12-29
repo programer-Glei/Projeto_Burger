@@ -39,10 +39,36 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
                 display: flex;
                 flex-wrap: wrap;
                 gap: 2rem;
+                margin-bottom: 3rem;
 
                 .icons{
                     flex: 1 1 17rem;
+                    text-align: center;
+
+                    i{
+                        height: 6rem;
+                        width: 6rem;
+                        line-height: 6rem;
+                        border-radius: 50%;
+                        background: $yellow;
+                        color: $black;
+                        font-size: 2rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    h3{
+                        padding: 1rem 0;
+                        @include title-text(2rem);
+                    }
+
+                    p{
+                        @include grap-text(1.5rem);
+                    }
                 }
+            }
+
+            form{
+                text-align: center;
             }
         }
     }

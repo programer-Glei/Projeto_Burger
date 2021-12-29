@@ -26,11 +26,40 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .contact .row .form .icons-container .icons {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 17rem;
           flex: 1 1 17rem;
+  text-align: center;
+}
+
+.contact .row .form .icons-container .icons i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  background: #eacf4f;
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact .row .form .icons-container .icons h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact .row .form .icons-container .icons p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+}
+
+.contact .row .form form {
+  text-align: center;
 }
 /*# sourceMappingURL=contact.css.map */
