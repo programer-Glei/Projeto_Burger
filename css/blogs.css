@@ -10,6 +10,16 @@
   position: relative;
 }
 
+.blogs .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .box-container .box:hover .image .icons {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
 .blogs .box-container .box .image {
   height: 25rem;
   overflow: hidden;
@@ -28,6 +38,27 @@
           justify-content: space-between;
   padding: 2rem;
   background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  -webkit-transform: translateY(10rem);
+          transform: translateY(10rem);
+}
+
+.blogs .box-container .box .image .icons a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.blogs .box-container .box .image .icons a i {
+  padding-right: 0.5rem;
+  color: #eacf4f;
+}
+
+.blogs .box-container .box .image .icons a:hover {
+  color: #eacf4f;
 }
 
 .blogs .box-container .box .image img {

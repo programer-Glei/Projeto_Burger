@@ -29,6 +29,15 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
         .box{
             position: relative;
 
+            &:hover .image{
+                img{
+                    transform: scale(1.1);
+                }
+                .icons{
+                    transform: translateY(0);
+                }
+            }
+
             .image{
                 height: 25rem;
                 overflow: hidden;
@@ -40,6 +49,24 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
                     justify-content: space-between;
                     padding: 2rem;
                     background: $black;
+                    position: absolute;
+                    bottom: 0; left: 0; right: 0;
+                    z-index: 10;
+                    transform: translateY(10rem);
+
+                    a{
+                        font-size: 1.5rem;
+                        color: $white;
+
+                        i{
+                            padding-right: 0.5rem;
+                            color: $yellow;
+                        }
+
+                        &:hover{
+                            color: $yellow;
+                        }
+                    }
                 }
 
                 img{
