@@ -69,6 +69,26 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
 
             form{
                 text-align: center;
+
+                .box{
+                    padding: 1.2rem 1.4rem;
+                    font-size: 1.6rem;
+                    color: $white;
+                    background: none;
+                    border: $border;
+                    text-transform: none;
+                    width: 100%;
+                    margin: 0.7rem 0;
+
+                    &:focus{
+                        border-color: $yellow;
+                    }
+                }
+
+                textarea{
+                    height: 15rem;
+                    resize: none;
+                }
             }
         }
     }
