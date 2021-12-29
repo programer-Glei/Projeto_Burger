@@ -67,4 +67,21 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.blogs .box-container .box .content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.blogs .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1.5rem 0;
+}
 /*# sourceMappingURL=blogs.css.map */

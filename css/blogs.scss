@@ -75,6 +75,20 @@ $border: 0.2rem solid rgba(255,255,255,0.3);
                     object-fit: cover;
                 }
             }
+
+            .content{
+                text-align: center;
+                padding: 2rem;
+
+                h3{
+                    @include title-text(2rem);
+                }
+
+                p{
+                    @include grap-text(1.5rem);
+                    padding: 1.5rem 0;
+                }
+            }
         }
     }
 }
